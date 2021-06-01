@@ -61,6 +61,8 @@ namespace ListaObjetos0106
 
             produtos.Insert(3, atualizar);
 
+            Console.WriteLine("\nLista alterada: ");
+
             // Checamos se realmente foi atualizado (Read)
             foreach (Produto p in produtos)
             {
